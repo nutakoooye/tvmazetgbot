@@ -1,5 +1,5 @@
 import sys
-from tvmazetgbot.client import Bot
+from .client import Bot
 import argparse
 
 
