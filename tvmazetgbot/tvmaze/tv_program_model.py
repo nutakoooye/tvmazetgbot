@@ -1,6 +1,8 @@
 from typing import Optional
 
-from pydantic import BaseModel, validator
+from pydantic import BaseModel
+from pydantic import validator
+
 
 DEFAULT_IMAGE_URL = (
     "https://upload.wikimedia.org/wikipedia/"

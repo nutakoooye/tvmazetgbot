@@ -1,7 +1,8 @@
 import requests
 from typing import Any
-from .tv_program_model import TVProgram
+
 from .decorators import cached
+from .tv_program_model import TVProgram
 
 
 @cached(ttl=5 * 60)

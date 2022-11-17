@@ -1,7 +1,6 @@
-from typing import Optional
-
-import requests
 import json
+import requests
+from typing import Optional
 
 
 class TelegramAPI:

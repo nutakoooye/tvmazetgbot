@@ -2,10 +2,10 @@ import re
 import json
 import sys
 
-from .tvmaze import get_tv_program
-from .tvmaze import TVProgram
 from .database_tools import FavoritesDB
 from .tg_api import TelegramAPI
+from .tvmaze.tv_program import get_tv_program
+from .tvmaze.tv_program_model import TVProgram
 
 START_MESSAGE = """
 Hi, I'm a TV show search bot, just try

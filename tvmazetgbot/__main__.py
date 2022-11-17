@@ -1,6 +1,7 @@
 import sys
-from .client import Bot
 import argparse
+
+from .client import Bot
 
 
 def parse_args():
