@@ -27,7 +27,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["tvmazetgbot"],
+    packages=["tvmazetgbot", "tvmaze"],
     include_package_data=True,
     install_requires=["pydantic==1.10.2"]
 )
